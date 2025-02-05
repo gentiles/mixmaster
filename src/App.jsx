@@ -15,6 +15,6 @@ const router = createBrowserRouter([
   },
 ]);
 const App = () => {
-  return <h2>mixmaster starter</h2>;
+  return <RouterProvider router={router} />;
 };
 export default App;
